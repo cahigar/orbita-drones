@@ -10,7 +10,7 @@ public class Tarifas {
 
     public static final double ENVIO_BAJA = 15.00;
     public static final double ENVIO_MEDIA = 42.50;
-    public static final double ENVIO_ALTA = 79.90;
+    public static final double ENVIO_ALTA = 110.00;
 
     /** Devuelve los gastos de envio para la orbita indicada. */
     public static double gastosEnvio(String orbita) {
