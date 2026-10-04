@@ -1,0 +1,18 @@
+# ─── Secretos ────────────────────────────────────────────
+# El .env lleva claves. NUNCA se sube. Se sube .env.example.
+.env
+
+# ─── Compilado de Java ───────────────────────────────────
+bin/
+*.class
+*.jar
+
+# ─── Eclipse ─────────────────────────────────────────────
+.metadata/
+.settings/
+.recommenders/
+
+# ─── Sistema operativo ───────────────────────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
