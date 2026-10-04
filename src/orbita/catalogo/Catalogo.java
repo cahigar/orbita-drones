@@ -21,6 +21,17 @@ public class Catalogo {
         return drones;
     }
 
+    /** Devuelve los drones que llegan al menos a los km indicados. */
+    public List<Dron> porAlcance(int kmMinimos) {
+        List<Dron> salida = new ArrayList<>();
+        for (Dron d : drones) {
+            if (d.getAlcanceKm() >= kmMinimos) {
+                salida.add(d);
+            }
+        }
+        return salida;
+    }
+
     /** Busca un dron por su codigo. Devuelve null si no existe. */
     public Dron buscar(String codigo) {
         for (Dron d : drones) {
